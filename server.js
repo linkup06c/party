@@ -43,7 +43,33 @@ io.on("connection", (socket) => {
   /* ========================= */
   /* JOIN ROOM */
   socket.on("join-room", ({ room, password, user }) => {
+/* ========================= */
+/* ATUALIZAR USUÁRIO ONLINE */
 
+socket.on("update-user", (userAtualizado) => {
+
+  if (!socket.user || !userAtualizado) return;
+
+
+  socket.user = {
+    ...socket.user,
+    ...userAtualizado
+  };
+
+
+  if (!socket.room) return;
+
+
+  io.to(socket.room).emit("user-updated", {
+
+    id: socket.id,
+
+    user: socket.user
+
+  });
+
+
+});
     const config = ROOMS[room];
 
     if (!config) {
