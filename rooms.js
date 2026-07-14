@@ -37,49 +37,49 @@ const rooms = [
     {
         id: "sala-geral",
         nome: "Global",
-        icone: `<img src="../voz/drawable/global.svg">`
+        icone: `<img src="layout/voz/drawable/global.svg">`
     },
 
     {
         id: "sala-sgoffc",
         nome: "SG e-Sports",
-        icone: `<img src="voz/drawable/sg.svg">`
+        icone: `<img src="layout/voz/drawable/sg.svg">`
     },
 
     {
         id: "sala-events",
         nome: "Eventos",
-        icone: `<img src="voz/drawable/events.svg">`
+        icone: `<img src="layout/voz/drawable/events.svg">`
     },
 
     {
         id: "sala-duo",
         nome: "Dupla",
-        icone: `<img src="voz/drawable/duo.svg">`
+        icone: `<img src="layout/voz/drawable/duo.svg">`
     },
 
     {
         id: "sala-duo2",
         nome: "Dupla 2",
-        icone: `<img src="voz/drawable/duo.svg">`
+        icone: `<img src="layout/voz/drawable/duo.svg">`
     },
 
     {
         id: "sala-squad",
         nome: "Esquadrão",
-        icone: `<img src="voz/drawable/squad.svg">`
+        icone: `<img src="layout/voz/drawable/squad.svg">`
     },
 
     {
         id: "sala-squad2",
         nome: "Esquadrão 2",
-        icone: `<img src="voz/drawable/squad.svg">`
+        icone: `<img src="layout/voz/drawable/squad.svg">`
     },
         
     {
         id: "sala-squad3",
         nome: "Esquadrão 3",
-        icone: `<img src="voz/drawable/squad.svg">`
+        icone: `<img src="layout/voz/drawable/squad.svg">`
     }
 
 ];
